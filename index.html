@@ -5,20 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pothfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Bonny Pothfolio</h1>
-    <h2>I am a Web Developer</h2>
-    
-    <h3><a href="./Projects/birthday.html">Birthday Invite Project</a></h3>
-    <img src="./Projects/img/birthdayproject.png" alt="">
-    <h3><a href="./Projects/Movie.html">Movie Ranking Project</a></h3>
-    <img src="./Projects/img/movie.png" alt="">
-    <hr>
-    <a href="index.html">About me</a>
-    <a href="./Projects/contactme.html">Contact Me</a>
+    <div class="container">
+        <header>
+            <div class="head">
+                <div class="left" style="font-size: 1.5em; color: white;">
+                   Code with Bonny
+                </div>
+                <div class="right">
+                    <ul style="list-style: none;">
+                        <li><a href="/Projects/contact.html">Contact Me</a></li>
+                        <li><a href="index.html">About me</a></li>
+                        <li><a href="./Pothfolio/index.html">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="first">
+                <h3 class="link"><a href="./Projects/birthday.html">Project link -> Birthday Invite Project</a></h3>
+                <img class="img" src="./Projects/img/birthdayproject.png" alt="">
 
+            </div>
+            <div class="second">
+                <h3 class="link"><a href="./Projects/Movie.html">Project link -> Movie Ranking Project</a></h3>
+                <img class="img" src="./Projects/img/movie.png" alt="">
+            </div>
+        </div>
+        <footer>
+
+            <div>
+                <p style="color: white;">&copy; Copyright Bonny</p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
