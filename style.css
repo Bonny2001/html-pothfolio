@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mukta:wght@500&family=Noto+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(8, 8, 33);
+    color: white;
+
+}
+
+.head {
+    background-color: rgb(24, 24, 160);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.head ul {
+    display: flex;
+}
+
+.head ul li>p {
+    list-style: none;
+    
+}
+
+
+.head {
+   
+
+}
+
+.left {
+    padding-right: 169px;
+    font-size: 1.5em;
+
+}
+
+.right {
+    
+    font-size: 1em;
+
+}
+
+
+.right a {
+    text-decoration: none;
+    color: white;
+    margin:0px 25px;
+    
+    
+}
+
+.content {
+    display: flex;
+    padding-top: 25px;
+    gap: 40px;
+    margin: 15px;
+    justify-content: center;
+}
+@media (max-width:850px ){
+  .content{
+   
+   display: flex;
+    flex-direction: column;
+  }
+}
+.img{
+    border-radius: 30px;
+}
+
+.first>img {
+    height: 70vh;
+    border: 5px solid black;
+    margin: 12px;
+}
+
+.second>img {
+    height: 70vh;
+    border: 5px solid black;
+    width: 350px;
+    margin: 12px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+
+
+footer > div{
+    height: 28px;
+    background-color: rgb(24, 24, 160);
+}
